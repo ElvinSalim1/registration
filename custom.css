@@ -1,0 +1,20 @@
+.error{
+    color: red;
+}
+
+.panel-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    padding: 0 0 3rem 0;
+}
+
+.extra{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}

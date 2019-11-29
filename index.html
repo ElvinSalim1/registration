@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                    <div class="panel-heading">Registration</div>
+                    <div class="panel-body">
+                    <form onsubmit="validate" action="login.html" id="registration">
+                            <label>Firstname</label>
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Firstname" />
+                            <br>
+                            <label>Lastname</label>
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Lastname">
+                            <br>
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Email">
+                            <br>
+                            <label>Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            <br>
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control" name="confirm" placeholder="Confirm Password">
+                            <br>
+                            <label >Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="2" placeholder="Write your message"></textarea>
+                            <br>
+                            <label>Birth Date</label>
+                            <input type="date" class="form-control" id="birth" name="birth">
+                            <br>
+                            <div class="gender">
+                                <label class="radio-inline"><input type="radio" name="gender" class="form-contorl">Male</label>
+                                <label class="radio-inline"><input type="radio" name="gender" class="form-contorl">Female</label>
+                                <label class="radio-inline"><input type="radio" name="gender" class="form-contorl">Other</label>
+                            </div>
+                            <br>
+                            <select class="form-control" name="country">
+                                <option value="0" selected="" disabled="">Select your country</option>
+                                <option>Sweden</option>
+                                <option>Norway</option>
+                                <option>Denmark</option>
+                            </select>
+                            <br>
+                            <label for="policy">I accept the terms of condition and policies.</label>
+                            <input type="checkbox" id="policy" name="policy">
+                            <br>
+                        <button type="submit" id="selectButton" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
