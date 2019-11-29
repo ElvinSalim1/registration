@@ -27,10 +27,6 @@ $(function(){
                     Blank: true,
                     minlength: 3
                 },
-                username:{
-                    required: true,
-                    Blank: true
-                },
                 email:{
                     required: true,
                     email: true
@@ -69,9 +65,6 @@ $(function(){
                 },
                 lastname:{
                     required: 'Please enter your lastname'
-                },
-                username:{
-                    required: 'Please enter your username'
                 },
                 email:{
                     required: 'Please enter your email',
