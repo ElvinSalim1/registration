@@ -36,7 +36,8 @@ $(function(){
                     minlength: 6
                 },
                 password1:{
-                    required: true
+                    required: true,
+                    minlength: 6
                 },
                 confirm:{
                     required: true,
